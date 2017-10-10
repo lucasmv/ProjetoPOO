@@ -108,6 +108,25 @@ namespace Lucas.ProjetoPOO.UIConsole
 
             #endregion
 
+            #region OBJECT
+
+            var cliente1 = new Cliente("Lucas")
+            {
+                Rg = "12345-6"
+            };
+
+            var cliente2 = new Cliente("Lucas")
+            {
+                Rg = "12345-6"
+            };
+
+            Console.WriteLine("Equals? " + cliente1.Equals(cliente2));
+            Console.WriteLine("Equals? " + cliente.Equals(cliente2));
+
+            Console.WriteLine(cliente.ToString());
+
+            #endregion
+
             Console.ReadKey();
 
         }

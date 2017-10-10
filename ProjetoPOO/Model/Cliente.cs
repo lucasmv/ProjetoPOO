@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Lucas.ProjetoPOO.Model
 {
@@ -44,6 +45,27 @@ namespace Lucas.ProjetoPOO.Model
                 var possuiCPF = !string.IsNullOrEmpty(this.Cpf);
                 return (maiorDeIdade || emancipado) && possuiCPF;
             }
+        }
+
+        public override bool Equals(object obj)
+        {
+            Cliente cliente = (Cliente)obj;
+            Cliente cliente2 = obj as Cliente;
+
+            return Rg.Equals(cliente.Rg);
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine(string.Format("Nome: {0}", Nome));
+            sb.AppendLine(string.Format("Idade: {0}", Idade));
+            sb.AppendLine(string.Format("CPF: {0}", Cpf));
+            sb.AppendLine(string.Format("RG: {0}", Rg));
+            sb.Append(string.Format("Endereço: {0}", Endereco));
+
+            return sb.ToString();
         }
     }
 }

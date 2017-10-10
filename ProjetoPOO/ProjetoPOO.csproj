@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Cliente.cs" />
-    <Compile Include="Model\Conta.cs" />
+    <Compile Include="Model\Abstract\Conta.cs" />
     <Compile Include="Model\ContaCorrente.cs" />
     <Compile Include="Model\ContaInvestimento.cs" />
     <Compile Include="Model\ContaPoupanca.cs" />
