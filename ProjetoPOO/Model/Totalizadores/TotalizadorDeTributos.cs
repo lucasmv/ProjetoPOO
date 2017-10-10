@@ -1,4 +1,6 @@
-﻿namespace ProjetoPOO
+﻿using Lucas.ProjetoPOO.Interface;
+
+namespace Lucas.ProjetoPOO.Totalizadores
 {
     public class TotalizadorDeTributos
     {

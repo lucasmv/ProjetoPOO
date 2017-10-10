@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Lucas.ProjetoPOO.Exceptions;
+using Lucas.ProjetoPOO.Interface;
+using System;
 
-namespace ProjetoPOO
+namespace Lucas.ProjetoPOO.Model
 {
     public class ContaPoupanca : Conta, Tributavel
     {

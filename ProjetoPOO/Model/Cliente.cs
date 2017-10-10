@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProjetoPOO
+namespace Lucas.ProjetoPOO.Model
 {
     public class Cliente
     {

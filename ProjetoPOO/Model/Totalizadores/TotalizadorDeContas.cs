@@ -1,7 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using Lucas.ProjetoPOO.Model;
+using System.Collections.Generic;
 using System.Linq;
 
-namespace ProjetoPOO
+namespace Lucas.ProjetoPOO.Totalizadores
 {
     public class TotalizadorDeContas
     {

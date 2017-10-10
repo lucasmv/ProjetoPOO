@@ -1,4 +1,4 @@
-﻿namespace ProjetoPOO
+﻿namespace Lucas.ProjetoPOO.Interface
 {
     public interface Tributavel
     {

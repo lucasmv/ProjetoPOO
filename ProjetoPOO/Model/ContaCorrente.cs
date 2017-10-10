@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Lucas.ProjetoPOO.Exceptions;
+using System;
 
-namespace ProjetoPOO
+namespace Lucas.ProjetoPOO.Model
 {
     public class ContaCorrente : Conta
     {

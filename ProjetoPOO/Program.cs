@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Lucas.ProjetoPOO.Exceptions;
+using Lucas.ProjetoPOO.Model;
+using System;
 
-namespace ProjetoPOO
+namespace Lucas.ProjetoPOO.UIConsole
 {
     class Program
     {
